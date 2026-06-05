@@ -1,0 +1,39 @@
+# ---- Datasets (large; download separately — see datasets/README_DATA.md) ----
+/datasets/*
+!/datasets/README_DATA.md
+
+# ---- Pretrained LLM weights & HuggingFace cache (auto-downloaded at runtime) ----
+CPAP-my/LLMs/
+.cache/
+huggingface/
+
+# ---- Training outputs / checkpoints / logs ----
+CPAP-my/pre_trained_best_models_mosi/
+CPAP-my/pre_trained_best_models_mosei/
+CPAP-my/pre_trained_models/
+CPAP-my/apf_plots/
+CPAP-my/hp_runs/
+*.pt
+*.pth
+*_result.csv
+TeFNA_*.csv
+live_losses.png
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+build/
+dist/
+
+# ---- Environments ----
+.venv/
+venv/
+env/
+
+# ---- IDE / OS ----
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
